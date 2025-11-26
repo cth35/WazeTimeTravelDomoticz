@@ -1,5 +1,5 @@
 """
-<plugin key="WazeRouteTime" name="Waze Route Time Calculator" author="cth35" version="1.1.0" externallink="https://github.com/cth35/WazeTimeTravelDomoticz">
+<plugin key="WazeRouteTime" name="Waze Route Time Calculator" author="cth35" version="1.1.0" externallink="https://github.com/cth35/Domoticz-WazeTimeTravel-Plugin">
     <params>
         <param field="Mode1" label="From" width="200px" required="true" default="Rennes, France"/>
         <param field="Mode2" label="To" width="200px" required="true" default="Paris, France"/>

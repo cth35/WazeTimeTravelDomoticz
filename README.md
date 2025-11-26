@@ -14,12 +14,12 @@ This Domoticz plugin calculates and displays the estimated travel time (in minut
 
 | Parameter            | Description                                 | Default Value    |
 |----------------------|---------------------------------------------|------------------|
-| From                 | Starting location address                    | Rennes, France   |
-| To                   | Destination location address                 | Paris, France    |
-| Time window begin    | Time of day to start updates (hh:mm)         | 06:30            |
-| Time window end      | Time of day to stop updates (hh:mm)          | 20:00            |
-| Refresh interval     | Update interval in minutes                    | 300 (5 minutes)  |
-| Region               | Region for routing (EU, US, IL)               | Europe (EU)      |
+| From                 | Starting location address                   | Rennes, France   |
+| To                   | Destination location address                | Paris, France    |
+| Time window begin    | Time of day to start updates (hh:mm)        | 06:30            |
+| Time window end      | Time of day to stop updates (hh:mm)         | 20:00            |
+| Refresh interval     | Update interval in seconds                  | 300 (5 minutes)  |
+| Region               | Region for routing (EU, US, IL)             | Europe (EU)      |
 
 ## Installation
 

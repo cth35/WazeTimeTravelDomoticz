@@ -5,7 +5,7 @@
         <param field="Mode2" label="To" width="200px" required="true" default="Paris, France"/>
         <param field="Mode3" label="Time window begin (hh:mm)" width="100px" required="false" default="06:30"/>
         <param field="Mode4" label="Time windows end (hh:mm)" width="100px" required="false" default="20:00"/>
-        <param field="Mode5" label="Refresh interval (min)" width="100px" required="false" default="300"/>
+        <param field="Mode5" label="Refresh interval (seconds)" width="100px" required="false" default="300"/>
         <param field="Mode6" label="Region" width="150px">
             <options>
                 <option label="Europe (EU)" value="EU" default="true"/>

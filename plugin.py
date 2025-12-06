@@ -76,6 +76,9 @@ class BasePlugin:
 
     def _is_in_time_window(self):
         try:
+            if not self.time_window_start or not self.time_window_end:
+                Domoticz.Log("Time window not configured, skipping check.")
+                return True
             now = datetime.datetime.now().time()
             start = datetime.datetime.strptime(self.time_window_start, "%H:%M").time()
             end = datetime.datetime.strptime(self.time_window_end, "%H:%M").time()
